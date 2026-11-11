@@ -1,0 +1,122 @@
+/* Universal Selector */
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Page Background with Pattern */
+body {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: #17324d;
+
+    background-color: #e0f2fe;
+
+    background-image:
+        radial-gradient(#bae6fd 2px, transparent 2px);
+
+    background-size: 25px 25px;
+}
+
+/* Main Heading */
+h1 {
+    color: #075985;
+    font-size: 32px;
+}
+
+.tagline {
+    font-size: 18px;
+    color: #475569;
+}
+
+/* Main Weather Card */
+.weather-card {
+    width: 350px;
+    margin: 30px auto;
+    padding: 25px;
+
+    background: linear-gradient(to bottom right,
+            #38bdf8,
+            #2563eb);
+
+    color: white;
+    border-radius: 20px;
+
+    box-shadow: 0 5px 20px #94a3b8;
+}
+
+/* Weather Icon Animation */
+.weather-icon {
+    font-size: 65px;
+
+    animation: float 2s infinite ease-in-out;
+}
+
+/* Temperature */
+.temperature {
+    font-size: 45px;
+    color: white;
+}
+
+/* Weather Details */
+.weather-details {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 12px;
+}
+
+/* Weekly Forecast Heading */
+.forecast-title {
+    color: #075985;
+    margin-top: 40px;
+}
+
+/* Forecast Container */
+.forecast-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* Individual Day Cards */
+.day-card {
+    background: linear-gradient(to bottom,
+            #ffffff,
+            #bae6fd);
+
+    width: 110px;
+    padding: 10px;
+    border-radius: 15px;
+
+    box-shadow: 0 3px 10px #94a3b8;
+}
+
+.day-card p {
+    font-size: 35px;
+}
+
+/* Floating Animation */
+@keyframes float {
+
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+
+/* Footer */
+footer {
+    margin-top: 35px;
+    color: #075985;
+    font-weight: bold;
+}
